@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  /* --primaryColor: #af9a7d; */
-  --primaryColor: #0c3181;
+  --primaryColor: #af9a7d;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -54,12 +53,11 @@ h6 {
   margin-bottom: 1.5em;
 }
 
-.btn-primary, .btn-primary-1 {
+.btn-primary {
   display: inline-block;
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
-  color: var(--mainWhite);
-  /* color: var(--mainBlack); */
+  color: var(--mainBlack);
   background: var(--primaryColor);
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);
@@ -69,18 +67,7 @@ h6 {
 }
 .btn-primary:hover {
   background: transparent;
-  /* color: var(--primaryColor); */
-  color: var(--mainWhite);
-  /* remove border color in default version */
-  border-color: var(--mainWhite);
-}
-
-.btn-primary-1:hover {
-  background: transparent;
   color: var(--primaryColor);
-  /* color: var(--mainWhite); */
-  /* remove border color in default version */
-  /* border-color: var(--mainWhite); */
 }
 .loading {
   text-transform: capitalize;
@@ -265,7 +252,6 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
-  text-transform: capitalize;
 }
 .services p {
   width: 80%;
