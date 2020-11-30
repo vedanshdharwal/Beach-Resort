@@ -14,9 +14,9 @@ app.use(express.json());
 app.use(cors());
 
 //routes
-app.get("/", (req, res) => {
-  res.send("IT Works !!!!!!!!!");
-});
+// app.get("/", (req, res) => {
+//   res.send("IT Works !!!!!!!!!");
+// });
 
 app.post("/payment", (req, res) => {
   //token will contain product details - price etc
