@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 
 app.post("/payment", (req, res) => {
   //token will contain product details - price etc
-  // console.log(req.body);
+
   const { item, token } = req.body;
   // console.log("token: ", token);
   // console.log("Price: ", item.price);
