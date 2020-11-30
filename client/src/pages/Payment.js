@@ -19,7 +19,7 @@ function Payment(props) {
     };
 
     //must be https for hosted website for stripe to work
-    return fetch(`http://localhost:5000/payment`, {
+    return fetch(`/payment`, {
       method: "POST",
       headers,
       body: JSON.stringify(body),
