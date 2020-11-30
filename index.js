@@ -14,8 +14,12 @@ app.use(express.json());
 app.use(cors());
 
 //routes
+// app.get("/", (req, res) => {
+//   res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+// });
+
 app.get("/", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  res.redirect('https://beach-resort-project01.netlify.app/');
 });
 
 app.post("/payment", (req, res) => {
